@@ -3,7 +3,7 @@ require "formula"
 # https://github.com/giantswarm/gsctl/blob/master/update-homebrew.sh
 class Opsctl < Formula
   desc "Controls things on Giant Swarm"
-  homepage "https://github.com/giantswarm/gsctl"
+  homepage "https://github.com/giantswarm/opsctl"
   url "https://github.com/giantswarm/opsctl/releases/download/cd5892f/opsctl-darwin-amd64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
   version "cd5892f"
   # openssl dgst -sha256 <file>
