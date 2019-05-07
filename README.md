@@ -3,7 +3,7 @@
 Homebrew tap for installing internal tooling at Giant Swarm
 
 ```nohighlight
-$ brew tap giantswarm/giantswarm
+$ brew tap giantswarm/giantswarm-internal
 $ brew install opsctl
 ```
 
