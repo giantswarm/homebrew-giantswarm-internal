@@ -6,10 +6,10 @@ require_relative "../custom_download_strategy.rb"
 class Opsctl < Formula
   desc "Controls things on Giant Swarm"
   homepage "https://github.com/giantswarm/opsctl"
-  url "https://github.com/giantswarm/opsctl/releases/download/71eb200/opsctl-darwin-amd64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-  version "71eb200"
+  url "https://github.com/giantswarm/opsctl/releases/download/e8793b1/opsctl-darwin-amd64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
+  version "e8793b1"
   # openssl dgst -sha256 <file>
-  sha256 "8808fba4a112774ddeadb1c0f6f650a7900e26b88bc74b95df2b0e41b65b782e"
+  sha256 "6ce476948bc7bfa3fc3b86a63a0d0b8591e9b6db85be22e64293657f1bdd1480"
   def install
     bin.install "opsctl"
   end
