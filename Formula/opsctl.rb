@@ -7,9 +7,9 @@ class Opsctl < Formula
   desc "Controls things on Giant Swarm"
   homepage "https://github.com/giantswarm/opsctl"
   url "null", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-  version "0.1.3"
+  version "0.2.0"
   # openssl dgst -sha256 <file>
-  sha256 "f96d00c63cd73b424f4c4b6ecfa1c6e6dd48d88c0a5ca2df5df2969e60fa477d"
+  sha256 "021899d851580f0234cebd14dd88e9c2e15cf2531602b9d838a6f9fca5bd09cd"
   def install
     bin.install "opsctl"
   end
